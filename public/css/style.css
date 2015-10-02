@@ -34,7 +34,7 @@ ul{
 body{
 	padding:0 0;
 	margin:0 0;
-  font-family: 'noto_sans_myanmarregular', sans-serif;
+  font-family: 'noto_sans_myanmarregular';
 }
 .header {
   background: url("../images/banner.jpg") no-repeat 0px 0px;
@@ -895,6 +895,11 @@ a.button2 img {
 
   .contact-header h3 {
     font-size: 1.3em;
+  }
+
+  .unicode{
+
+    font-family: 'noto_sans_myanmarregular';
   }
 
   @font-face {
