@@ -86,6 +86,7 @@
 
 
 
+
         <div id="sliderFrame">
 
         <div class="center-img" id="slider">

@@ -12,8 +12,14 @@
 }
 
 
+@font-face {
+    font-family: 'unicode';
+    src: url(../fonts/NotoSans.ttf);
+}
 
-.unicode{
 
-    font-family: "noto_sans_myanmarregular",Myanmar3;
+.unicode {
+
+
+    font-family: 'unicode',Myanmar3;
 }
