@@ -63,7 +63,7 @@
                 <span class="menu"><img src="images/nav.png" alt=""/></span>
                 <ul>
                     <li><a class="active" href="{{url('/')}}" class="scroll">Home</a></li>
-                    <li><a href="#download" class="scroll unicode">Download လုပ်ရန်</a></li>
+                    <li><a href="#download" class="scroll">Download လုပ်ရန်</a></li>
                    
                     <li><a href="#features" class="scroll">Features များ</a></li>
                     <li><a href="#team" class="scroll">Screen Shots</a></li>
