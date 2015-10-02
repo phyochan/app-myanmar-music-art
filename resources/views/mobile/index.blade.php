@@ -5,6 +5,9 @@
     <title>Myanmar Music Art (Mobile App)</title>
     <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all">
     <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{asset('css/my.css')}}">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -80,6 +83,7 @@
 
             <div class="clearfix"></div>
         </div>
+
 
 
         <div id="sliderFrame">

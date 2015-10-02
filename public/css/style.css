@@ -34,7 +34,7 @@ ul{
 body{
 	padding:0 0;
 	margin:0 0;
-  font-family: 'noto_sans_myanmarregular';
+
 }
 .header {
   background: url("../images/banner.jpg") no-repeat 0px 0px;
@@ -897,24 +897,14 @@ a.button2 img {
     font-size: 1.3em;
   }
 
-  .unicode{
 
-    font-family: 'noto_sans_myanmarregular';
-  }
+
+
+
 
   @font-face {
-    font-family: 'noto_sans_myanmarregular';
-    src: url("../fonts/notosans-webfont.eot");
-    src: url('../fonts/notosans-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/notosans-webfont.woff2') format('woff2'),
-    url('../fonts/notosans-webfont.woff') format('woff'),
-    url('../fonts/notosans-webfont.ttf') format('truetype'),
-    url('../fonts/notosans-webfont.svg#noto_sans_myanmarregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: "Unicode";
+    src: url(../fonts/zawGyi.ttf);
   }
-
-
 
 }
