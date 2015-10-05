@@ -105,6 +105,8 @@
     </div>
 </div>
 
+@foreach($downloads as $download)
+
 
     <div class="content">
     <div class="service-section" id="download">
@@ -123,7 +125,19 @@
                 </div>
 
                 <div class="col-md-3 service-grid">
-                    <img src="{{asset('images/download.png')}}" onclick="alertMessage('Coming Soon!')">
+
+                    <form action="{{url('/',$download -> id)}}" method="post">
+
+                        <input type="hidden" name="_token" value="{{ csrf_token()}}">
+
+
+                        <input type="image" src="{{asset('images/download.png')}}" onsubmit="submit();" />
+
+
+
+                    </form>
+
+
                     <p>တိုက်ရိုက် Download ရယူရန်</p>
 
                 </div>
@@ -145,12 +159,17 @@
                     <div class="container">
                         <h3><span></span> Download အရေအတွက်<span></span></h3>
                         <br>
-                       <h3 class="counter">2400</h3>
+
+
+                      <h3 class="counter">{{$download -> count}}</h3>
+
+
 
 
                     </div>
                 </div>
 
+                @endforeach
 
     <div class="feature" id="features">
         <div class="container">

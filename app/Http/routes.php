@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('mobile.index');
-});
+
+
+Route::get('/','DownloadCountController@show');
+
+Route::post('/{id}','DownloadCountController@downloadApp');
+
+Route::get('/app/upload/{id}','DownloadCountController@uploadshow');
+
+Route::post('/app/upload/{id}','DownloadCountController@Apkupdate');
+
+
+Route::get('/show/id','DownloadCountController@showId');
+
+
