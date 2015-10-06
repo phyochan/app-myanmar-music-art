@@ -89,6 +89,8 @@
 
         <div id="sliderFrame">
 
+
+
         <div class="center-img" id="slider">
             <img src="{{asset('images/slide1.png')}}" alt="">
             <img src="{{asset('images/slide2.png')}}" alt="">
@@ -124,6 +126,7 @@
                     <p>Google Playstore တွင် Download ရယူရန်</p>
                 </div>
 
+
                 <div class="col-md-3 service-grid">
 
                     <form action="{{url('/',$download -> id)}}" method="post">
@@ -157,6 +160,10 @@
             <div class="content">
                 <div class="service-section" id="count">
                     <div class="container">
+
+                        <h4><span></span>v1.0<span></span></h4>
+                        <br>
+                        <br>
                         <h3><span></span> Download အရေအတွက်<span></span></h3>
                         <br>
 
