@@ -163,7 +163,7 @@
                 <div class="service-section" id="count">
                     <div class="container">
 
-                        <h4><span></span>v1.0<span></span></h4>
+                        <h4><span></span>v1.0.1<span></span></h4>
                         <br>
                         <br>
                         <h3><span></span> Download အရေအတွက်<span></span></h3>
