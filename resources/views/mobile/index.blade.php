@@ -122,7 +122,9 @@
                 </div>
 
                 <div class="col-md-3 service-grid">
-                    <img src="{{asset('images/appstore2.png')}}" onclick="alertMessage('Coming Soon!')">
+
+                    <a href="https://play.google.com/store/apps/details?id=mmsd.phyochan.myanmarmusicart" target="_blank">
+                    <img src="{{asset('images/appstore2.png')}}"></a>
                     <p>Google Playstore တွင် Download ရယူရန်</p>
                 </div>
 
