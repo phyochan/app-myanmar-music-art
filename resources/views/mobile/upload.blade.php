@@ -8,12 +8,12 @@
 </head>
 <body>
 
-<form action="" method="post" enctype="multipart/form-data">
+<form action="" method="post" >
 
     <input type="hidden" name="_token" value="{{ csrf_token()}}">
 
-    <input type="file" name="apk">
-
+    <input type="text" name="link">
+    
     <button>Submit</button>
 
 </form>

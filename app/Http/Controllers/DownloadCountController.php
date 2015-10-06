@@ -42,15 +42,9 @@ class DownloadCountController extends Controller{
 
         $downloads = Download::findOrNew($id);
 
-        $apkpath = public_path().'/upload/update/';
-
-        $apkname = \Input::file('apk')->getClientOriginalname();
 
 
-
-        \Input::file('apk')->move($apkpath, $apkname);
-
-        $downloads -> link = $apkname;
+        $downloads -> link = \Input::get('link');
 
 
         $downloads -> save();
@@ -70,6 +64,6 @@ class DownloadCountController extends Controller{
 
         $downloads -> save();
 
-        return \Response::download(public_path('/upload/update/'.$downloads -> link));
+        return \Redirect::to($downloads -> link);
     }
 }
