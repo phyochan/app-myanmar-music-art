@@ -123,7 +123,7 @@
 
                 <div class="col-md-3 service-grid">
 
-                    <a href="https://play.google.com/store/apps/details?id=mmsd.phyochan.myanmarmusicart" target="_blank">
+                    <a href="https://play.google.com/store/apps/details?id=mmsd.phyochan.mma" target="_blank">
                     <img src="{{asset('images/appstore2.png')}}"></a>
                     <p>Google Playstore တွင် Download ရယူရန်</p>
                 </div>
@@ -163,7 +163,11 @@
                 <div class="service-section" id="count">
                     <div class="container">
 
-                        <h4><span></span>v1.0.1<span></span></h4>
+                        <img src="{{asset('images/mma.png')}}" alt="">
+
+                        <br>
+
+                        <h4><span></span>v1.0.2<span></span></h4>
                         <br>
                         <br>
                         <h3><span></span> Download အရေအတွက်<span></span></h3>
