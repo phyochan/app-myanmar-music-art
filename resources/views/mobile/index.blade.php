@@ -92,7 +92,7 @@
 
 
         <div class="center-img" id="slider">
-            <img src="{{asset('images/slide1.png')}}" alt="">
+            <img src="{{asset('images/nexus1.png')}}" alt="">
             <img src="{{asset('images/slide2.png')}}" alt="">
             <img src="{{asset('images/slide3.png')}}" alt="">
             <img src="{{asset('images/slide4.png')}}" alt="">
@@ -167,7 +167,7 @@
 
                         <br>
 
-                        <h4><span></span>v1.2<span></span></h4>
+                        <h4><span></span>v1.3<span></span></h4>
                         <br>
                         <br>
                         <h3><span></span> Download အရေအတွက်<span></span></h3>
