@@ -167,7 +167,7 @@
 
                         <br>
 
-                        <h4><span></span>v1.3<span></span></h4>
+                        <h4><span></span>v1.4<span></span></h4>
                         <br>
                         <br>
                         <h3><span></span> Download အရေအတွက်<span></span></h3>
